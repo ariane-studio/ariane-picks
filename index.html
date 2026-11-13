@@ -72,6 +72,9 @@ section.s{scroll-margin-top:72px;padding-block:clamp(40px,6vw,96px);border-top:1
 .list a:hover h4{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 
 footer{padding-block:28px 64px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer .src{max-width:900px;text-align:right;line-height:1.9}
+footer a{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;transition:color .2s,text-decoration-color .2s}
+footer a:hover{color:var(--fg);text-decoration-color:var(--fg)}
 
 @media (max-width:900px){
   .intro,.sh,.hero .legend{grid-template-columns:minmax(0,1fr)}
@@ -303,7 +306,7 @@ html:not([data-l="en"]) .en,html:not([data-l="vi"]) .vi,html:not([data-l="fr"]) 
   </div>
 </section>
 
-<footer><span class="mono">Ariane Picks · 01</span><span class="mono">Vimeo, Stash, Shots, The Impression, Wallpaper*, Marie Claire, designboom, Sight Unseen, Harper's Bazaar VN, LUXUO VN, L'Officiel VN, Hanoi Grapevine, Dezeen, TECTURE MAG, Roastbrief</span></footer>
+<footer><span class="mono">Ariane Picks · 01</span><span class="mono src"><span class="en">Sources: </span><span class="vi">Nguồn: </span><span class="fr">Sources : </span><span class="es">Fuentes: </span><span class="ja">出典：</span><a href="https://vimeo.com/channels/staffpicks" target="_blank" rel="noopener">Vimeo Staff Picks</a>, <a href="https://www.stashmedia.tv/" target="_blank" rel="noopener">Stash</a>, <a href="https://www.shots.net/" target="_blank" rel="noopener">Shots</a>, <a href="https://theimpression.com/" target="_blank" rel="noopener">The Impression</a>, <a href="https://www.wallpaper.com/" target="_blank" rel="noopener">Wallpaper*</a>, <a href="https://www.marieclaire.com/" target="_blank" rel="noopener">Marie Claire</a>, <a href="https://www.designboom.com/" target="_blank" rel="noopener">designboom</a>, <a href="https://www.sightunseen.com/" target="_blank" rel="noopener">Sight Unseen</a>, <a href="https://www.dezeen.com/" target="_blank" rel="noopener">Dezeen</a>, <a href="https://mag.tecture.jp/" target="_blank" rel="noopener">TECTURE MAG</a>, <a href="https://roastbrief.com.mx/" target="_blank" rel="noopener">Roastbrief</a>, <a href="https://bazaarvietnam.vn/" target="_blank" rel="noopener">Harper&#39;s Bazaar VN</a>, <a href="https://luxuo.vn/" target="_blank" rel="noopener">LUXUO VN</a>, <a href="https://www.lofficielvietnam.com/" target="_blank" rel="noopener">L&#39;Officiel VN</a>, <a href="https://www.galeriequynh.com/" target="_blank" rel="noopener">Galerie Quynh</a>, <a href="https://news.tuoitre.vn/" target="_blank" rel="noopener">Tuổi Trẻ News</a></span></footer>
 </div>
 <script>
 /* Images : YouTube sans maxres renvoie une vignette grise 120x90, on passe en hqdefault ; sinon on affiche le nom de la marque. */
