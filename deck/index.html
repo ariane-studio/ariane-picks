@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ariane Picks · Introduction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+:root{--bg:#f1f1f1;--ink:#0a0a0a;--grey:#6f6f75;--soft:#a8a8ae;--line:#dcdcdc;--white:#fff;
+  --sans:"Inter",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --serif:"Instrument Serif","Lora",Georgia,"Times New Roman",serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0a0a0a;overflow:hidden}
+body{font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:center center}
+.slide{position:absolute;inset:0;background:var(--bg);padding:96px 120px;opacity:0;visibility:hidden;transition:opacity .45s ease,visibility .45s}
+.slide.on{opacity:1;visibility:visible}
+.dark{background:#0a0a0a;color:#f1f1f1}
+.dark .k,.dark .muted{color:#8f8f95}
+.k{font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);font-weight:500}
+.top{position:absolute;left:120px;right:120px;top:64px;display:flex;justify-content:space-between;font-size:18px;color:var(--grey);letter-spacing:.02em}
+.dark .top{color:#8f8f95}
+.serif{font-family:var(--serif);font-weight:400}
+em,.it{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em}
+.h0{font-size:220px;line-height:.88;letter-spacing:-.045em;font-weight:500}
+.h1{font-size:132px;line-height:.95;letter-spacing:-.04em;font-weight:500}
+.h2{font-size:88px;line-height:1.02;letter-spacing:-.035em;font-weight:500}
+.h3{font-size:44px;line-height:1.15;letter-spacing:-.02em;font-weight:400}
+.lead{font-size:34px;line-height:1.35;color:var(--grey);max-width:1100px;font-weight:400}
+.dark .lead{color:#a8a8ae}
+.body{font-size:24px;line-height:1.45;color:var(--grey)}
+.center{display:flex;flex-direction:column;justify-content:center;height:100%}
+.bottom{position:absolute;left:120px;right:120px;bottom:88px}
+.ph{position:relative;overflow:hidden;background:#dcdcdc;border-radius:6px}
+.ph img{display:block;width:100%;height:100%;object-fit:cover}
+.ph .wm{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-style:italic;font-size:40px;color:#0a0a0a;background:#dcdcdc;text-align:center;padding:20px}
+.cap{font-size:18px;color:var(--grey);margin-top:14px;line-height:1.4}
+.dark .cap{color:#8f8f95}
+.cap b{color:var(--ink);font-weight:500}
+.dark .cap b{color:#f1f1f1}
+.grid{display:grid;gap:24px}
+.tag{display:inline-block;font-size:16px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.rule{height:1px;background:var(--line);width:100%}
+.dark .rule{background:#26262a}
+.full{position:absolute;inset:0;border-radius:0}
+.full{background:#0a0a0a}.full .wm{display:none}
+.full::after{content:"";position:absolute;inset:0;background:rgba(10,10,10,.45)}
+.look{color:#2f3bd6;font-size:26px;line-height:1.4}
+.num{font-family:var(--serif);font-style:italic;font-size:40px;color:var(--soft)}
+#ui{position:fixed;right:20px;bottom:14px;font:500 13px/1 var(--sans);color:#8f8f95;letter-spacing:.08em;z-index:5;user-select:none}
+#bar{position:fixed;left:0;bottom:0;height:2px;background:#8f8f95;z-index:5;transition:width .3s}
+.hint{position:fixed;left:20px;bottom:14px;font:400 13px/1 var(--sans);color:#55555a;z-index:5}
+@media print{html,body{overflow:visible;background:#fff}#stage{position:static;transform:none!important;width:auto;height:auto}.slide{position:relative;opacity:1;visibility:visible;width:1920px;height:1080px;page-break-after:always}#ui,#bar,.hint{display:none}}
+</style>
+</head>
+<body>
+<div id="stage">
+
+<!-- 1 COVER -->
+<section class="slide dark">
+  <div class="ph full" data-brand="Bottega Veneta" style="border-radius:0"><img referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/-MQdgp51hho/maxresdefault.jpg" alt=""></div>
+  <div class="top" style="color:#d0d0d4"><span>Ariane Studio</span><span>Creative review · Introduction</span></div>
+  <div class="bottom">
+    <div class="h0" style="color:#fff">Ariane <em>Picks</em></div>
+    <div class="h3" style="color:#e6e6e8;margin-top:36px">What deserves your eye, <em>every Monday.</em></div>
+    <div class="body" style="color:#c8c8cc;margin-top:56px">Fleur Ferrari · Creative Group Head · November 2026</div>
+  </div>
+</section>
+
+<!-- 2 AI IS HERE -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>01 · Why</span></div>
+  <div class="center">
+    <div class="h0">AI is <em>here.</em></div>
+    <div class="lead" style="margin-top:56px">An image, a film, a layout, a voice. Making things has never been this fast, for us and for everyone else.</div>
+  </div>
+</section>
+
+<!-- 3 TASTE -->
+<section class="slide dark">
+  <div class="top"><span>Ariane Picks</span><span>01 · Why</span></div>
+  <div class="center">
+    <div class="h1" style="max-width:1600px">When anyone can make anything, <em>taste</em> is the difference.</div>
+  </div>
+</section>
+
+<!-- 4 PRECISE REFERENCES -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>01 · Why</span></div>
+  <div class="center">
+    <div class="h2" style="max-width:1500px">AI makes what we ask for.<br>So we need to know <em>exactly</em> what to ask for.</div>
+    <div class="grid" style="grid-template-columns:repeat(3,1fr);margin-top:96px;gap:48px">
+      <div><div class="rule"></div><div class="h3" style="margin-top:28px">Precise <em>references</em></div><div class="body" style="margin-top:12px">A director, a light, a grade, a typeface. Not "something cool".</div></div>
+      <div><div class="rule"></div><div class="h3" style="margin-top:28px">Precise <em>briefs</em></div><div class="body" style="margin-top:12px">Clearer prompts, faster rounds, better first drafts.</div></div>
+      <div><div class="rule"></div><div class="h3" style="margin-top:28px">Precise <em>feedback</em></div><div class="body" style="margin-top:12px">A shared vocabulary to say why it works, or why it doesn't.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 FEED -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>01 · Why</span></div>
+  <div class="center">
+    <div class="h1">Your feed is not a <em>reference library.</em></div>
+    <div class="grid" style="grid-template-columns:1fr 1fr;gap:48px;margin-top:96px;max-width:1500px">
+      <div><div class="k">The feed</div><div class="h3" style="margin-top:20px;color:var(--grey)">More of what you already like. Fast, uncredited, forgotten by tomorrow.</div></div>
+      <div><div class="k" style="color:var(--ink)">Ariane Picks</div><div class="h3" style="margin-top:20px">Chosen by hand. <em>Credited.</em> Explained. Kept in an archive.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 INTRO WITH COLLAGE -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>02 · What</span></div>
+  <div style="position:absolute;left:120px;top:180px;width:700px">
+    <div class="k">Introducing</div>
+    <div class="h1" style="margin-top:24px">Ariane <em>Picks</em></div>
+    <div class="lead" style="margin-top:40px">A weekly creative review, chosen by hand. The best of the week in film, advertising, luxury, design, art and architecture, from the best studios in the world and from Việt Nam.</div>
+  </div>
+  <div class="grid" style="position:absolute;right:120px;top:180px;width:900px;grid-template-columns:1fr 1fr;gap:20px">
+    <div class="ph" data-brand="Loewe" style="aspect-ratio:16/10"><img referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/fepNr6vQN3A/maxresdefault.jpg" alt=""></div>
+    <div class="ph" data-brand="Son Lux" style="aspect-ratio:16/10"><img referrerpolicy="no-referrer" src="https://i.vimeocdn.com/video/2207155061-05e1466c175c4c30865b67ad65d90863171f9459678796eaad88e8d379916e3c-d_1280x720" alt=""></div>
+    <div class="ph" data-brand="Gustaf Westman" style="aspect-ratio:16/10"><img referrerpolicy="no-referrer" src="https://www.designboom.com/twitterimages/uploads/2026/11/gustaf-westman-disney-collection-designboom-FB.jpg" alt=""></div>
+    <div class="ph" data-brand="Galerie Quynh" style="aspect-ratio:16/10"><img referrerpolicy="no-referrer" src="https://static-assets.artlogic.net/w_1200,h_630,c_fill,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0875/usr/images/exhibitions/main_image_override/150/the-society-of-the-spectacle-5-large.jpeg" alt=""></div>
+  </div>
+  <div class="cap" style="position:absolute;right:120px;bottom:88px;width:900px">From issue 01: Loewe × The Nightmare Before Christmas, Son Lux by Alex Cook, Gustaf Westman × Disney, Lại Diệu Hà at Galerie Quynh.</div>
+</section>
+
+<!-- 7 WHAT'S INSIDE -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>02 · What's inside</span></div>
+  <div class="k" style="margin-top:60px">Every week</div>
+  <div class="h2" style="margin-top:20px">Eight ways to look <em>beyond the feed.</em></div>
+  <div class="grid" style="grid-template-columns:repeat(4,1fr);gap:28px 24px;margin-top:56px">
+    <div><div class="ph" data-brand="Bottega Veneta" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/-MQdgp51hho/maxresdefault.jpg" alt=""></div><div class="cap"><b>Film of the week</b><br>The most beautiful film released this week.</div></div>
+    <div><div class="ph" data-brand="Don Hertzfeldt" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://i.vimeocdn.com/video/2210099538-c8d668916f0e1b7a9a1f5d7035e69d29c6c709c0a224f6dcfc8c3d0316455aa1-d_1280x720" alt=""></div><div class="cap"><b>Vimeo Staff Picks</b><br>What directors share before agencies see it.</div></div>
+    <div><div class="ph" data-brand="Raw Mango" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/D1hR1tGVieI/maxresdefault.jpg" alt=""></div><div class="cap"><b>Best ads &amp; festivals</b><br>The winners, and why they won.</div></div>
+    <div><div class="ph" data-brand="Chanel" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://theimpression.com/wp-content/uploads/2026/11/Chanel-ad-2026-The-Impression-002-1.jpg" alt=""></div><div class="cap"><b>Luxury &amp; fashion</b><br>Campaigns, fashion films, the houses.</div></div>
+    <div><div class="ph" data-brand="Netflix" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://www.stashmedia.tv/wp-content/uploads/NETFLIX-ad-with-axolotl-by-Electric-Theatre-Collective-_-STASH-MAGAZINE7.jpg" alt=""></div><div class="cap"><b>From the studios</b><br>The best studios in the world, every week.</div></div>
+    <div><div class="ph" data-brand="Tùng Dương" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/9PBnpNRXLOo/maxresdefault.jpg" alt=""></div><div class="cap"><b>Việt Nam</b><br>Music videos, fashion, design from here.</div></div>
+    <div><div class="ph" data-brand="Nguyễn Art Foundation" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://luxuo.vn/wp-content/uploads/2026/11/InPlainSight-3.png" alt=""></div><div class="cap"><b>On view in Saigon</b><br>Exhibitions worth crossing the city for.</div></div>
+    <div><div class="ph" data-brand="Gustaf Westman" style="aspect-ratio:16/9"><img referrerpolicy="no-referrer" src="https://www.designboom.com/twitterimages/uploads/2026/11/gustaf-westman-disney-collection-designboom-FB.jpg" alt=""></div><div class="cap"><b>Design &amp; objects</b><br>Material, form, craft.</div></div>
+  </div>
+</section>
+
+<!-- 8 CREDITS + LOOK AT -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>02 · How to read it</span></div>
+  <div class="ph" data-brand="Netflix" style="position:absolute;left:120px;top:180px;width:1000px;aspect-ratio:16/10"><img referrerpolicy="no-referrer" src="https://www.stashmedia.tv/wp-content/uploads/NETFLIX-ad-with-axolotl-by-Electric-Theatre-Collective-_-STASH-MAGAZINE7.jpg" alt=""></div>
+  <div style="position:absolute;left:1200px;right:120px;top:180px">
+    <div class="k">Every piece, credited</div>
+    <div class="h3" style="margin-top:24px;font-size:38px">Who had the <em>idea</em>, who <em>made</em> it.</div>
+    <div class="cap" style="font-size:22px;margin-top:28px;line-height:1.5"><b>Netflix · Find the Thing You Never Knew You Needed</b><br>Agency Mother London · Directors Vania &amp; Muggia · Production Iconoclast UK · VFX Electric Theatre Collective</div>
+    <div class="rule" style="margin:44px 0"></div>
+    <div class="k">Every strong piece, a lesson</div>
+    <div class="look" style="margin-top:20px">Look at: one campaign, three visual grammars. Format and grade set the tone before a word is spoken.</div>
+    <div class="body" style="margin-top:28px">The "Look at" line turns scrolling into learning: framing, light, grade, rhythm, material, type.</div>
+  </div>
+</section>
+
+<!-- 9 CULTURE DIVIDER -->
+<section class="slide dark">
+  <div class="top"><span>Ariane Picks</span><span>03 · Every month</span></div>
+  <div class="center">
+    <div class="k">New</div>
+    <div class="h0" style="margin-top:28px">History of <em>the Eye</em></div>
+    <div class="lead" style="margin-top:56px;max-width:1300px">Every month, one chapter of visual culture. Film, painting, architecture and design from the same moment in time, because they always speak the same language.</div>
+  </div>
+</section>
+
+<!-- 10 MONTH STRUCTURE -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>03 · How a month works</span></div>
+  <div class="k" style="margin-top:60px">One chapter, four weeks</div>
+  <div class="h2" style="margin-top:20px">Learn a little, <em>every Monday.</em></div>
+  <div class="grid" style="grid-template-columns:repeat(4,1fr);gap:24px;margin-top:80px">
+    <div style="background:#fff;border-radius:6px;padding:40px 36px;min-height:420px"><div class="num">01</div><div class="h3" style="margin-top:56px">The <em>context</em></div><div class="body" style="margin-top:16px">What was happening in the world, and the film that started it all.</div></div>
+    <div style="background:#fff;border-radius:6px;padding:40px 36px;min-height:420px"><div class="num">02</div><div class="h3" style="margin-top:56px">The <em>painters</em></div><div class="body" style="margin-top:16px">The artists who saw it first, and what they changed in how we look.</div></div>
+    <div style="background:#fff;border-radius:6px;padding:40px 36px;min-height:420px"><div class="num">03</div><div class="h3" style="margin-top:56px">The <em>builders</em></div><div class="body" style="margin-top:16px">Architecture, posters, type, objects: the same idea in space.</div></div>
+    <div style="background:#0a0a0a;color:#f1f1f1;border-radius:6px;padding:40px 36px;min-height:420px"><div class="num" style="color:#6f6f75">04</div><div class="h3" style="margin-top:56px">The echo <em>today</em></div><div class="body" style="margin-top:16px;color:#a8a8ae">Where it shows up now, in ads, music videos and motion design.</div></div>
+  </div>
+</section>
+
+<!-- 11 THE YEAR -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>03 · The year ahead</span></div>
+  <div class="k" style="margin-top:60px">From the first film to the first loop</div>
+  <div class="grid" style="grid-template-columns:repeat(4,1fr);gap:0 48px;margin-top:56px">
+    <div style="border-top:1px solid #0a0a0a;padding-top:22px;height:200px"><div class="k" style="font-size:16px">Dec</div><div class="h3" style="font-size:34px;margin-top:10px">The Birth of the <em>Moving Image</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Jan</div><div class="h3" style="font-size:34px;margin-top:10px">Speed and <em>Fragments</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Feb</div><div class="h3" style="font-size:34px;margin-top:10px"><em>Expressionism</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Mar</div><div class="h3" style="font-size:34px;margin-top:10px">Revolution and <em>Montage</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Apr</div><div class="h3" style="font-size:34px;margin-top:10px">Bauhaus and <em>De Stijl</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">May</div><div class="h3" style="font-size:34px;margin-top:10px">Dada and <em>Surrealism</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Jun</div><div class="h3" style="font-size:34px;margin-top:10px">Art Deco and the <em>Golden Age</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Jul</div><div class="h3" style="font-size:34px;margin-top:10px">The <em>Real</em> World</div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Aug</div><div class="h3" style="font-size:34px;margin-top:10px">Japan and the <em>Art of Space</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Sep</div><div class="h3" style="font-size:34px;margin-top:10px">Swiss Style and the <em>Title Sequence</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Oct</div><div class="h3" style="font-size:34px;margin-top:10px">New Wave and <em>Pop</em></div></div>
+    <div style="border-top:1px solid var(--line);padding-top:22px;height:200px"><div class="k" style="font-size:16px">Nov</div><div class="h3" style="font-size:34px;margin-top:10px">Op Art and the <em>Space Age</em></div></div>
+  </div>
+</section>
+
+<!-- 12 DECEMBER -->
+<section class="slide dark">
+  <div class="top"><span>Ariane Picks</span><span>03 · Starting in December</span></div>
+  <svg style="position:absolute;right:120px;top:180px" width="720" height="720" viewBox="0 0 720 720" aria-hidden="true">
+    <g fill="none" stroke="#3a3a3f" stroke-width="2">
+      <rect x="1" y="1" width="718" height="718" rx="6"/>
+      <line x1="120" y1="1" x2="120" y2="719"/><line x1="600" y1="1" x2="600" y2="719"/>
+    </g>
+    <g fill="#3a3a3f">
+      <rect x="40" y="40" width="40" height="28" rx="4"/><rect x="40" y="160" width="40" height="28" rx="4"/><rect x="40" y="280" width="40" height="28" rx="4"/><rect x="40" y="400" width="40" height="28" rx="4"/><rect x="40" y="520" width="40" height="28" rx="4"/><rect x="40" y="640" width="40" height="28" rx="4"/>
+      <rect x="640" y="40" width="40" height="28" rx="4"/><rect x="640" y="160" width="40" height="28" rx="4"/><rect x="640" y="280" width="40" height="28" rx="4"/><rect x="640" y="400" width="40" height="28" rx="4"/><rect x="640" y="520" width="40" height="28" rx="4"/><rect x="640" y="640" width="40" height="28" rx="4"/>
+    </g>
+    <circle cx="360" cy="330" r="150" fill="none" stroke="#f1f1f1" stroke-width="2"/>
+    <circle cx="360" cy="330" r="150" fill="#f1f1f1" opacity=".06"/>
+    <path d="M190 540 L340 300" stroke="#f1f1f1" stroke-width="2"/>
+    <circle cx="340" cy="300" r="7" fill="#f1f1f1"/>
+    <text x="360" y="640" text-anchor="middle" fill="#6f6f75" font-family="Inter,sans-serif" font-size="18" letter-spacing="3">1895 · 1902 · 1910</text>
+  </svg>
+  <div style="position:absolute;left:120px;top:180px;width:880px">
+    <div class="k">Chapter 01 · December</div>
+    <div class="h1" style="margin-top:24px;font-size:112px">The Birth of the <em>Moving Image</em></div>
+    <div class="body" style="margin-top:48px;color:#a8a8ae;font-size:26px;line-height:1.6">
+      <b style="color:#f1f1f1;font-weight:500">To watch</b> · the Lumière brothers, Méliès' <em>A Trip to the Moon</em><br>
+      <b style="color:#f1f1f1;font-weight:500">Art</b> · Monet's series, Muybridge's motion studies<br>
+      <b style="color:#f1f1f1;font-weight:500">Design</b> · Art Nouveau, Mucha's posters, the Paris Métro
+    </div>
+    <div class="look" style="color:#8f97ff;margin-top:44px">Look at: the first special effects, 120 years before After Effects.</div>
+  </div>
+</section>
+
+<!-- 13 TO WATCH -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>03 · To watch</span></div>
+  <div class="center">
+    <div class="k">At the bottom of every issue</div>
+    <div class="h1" style="margin-top:24px">Full films. <em>Free and legal.</em></div>
+    <div class="lead" style="margin-top:44px">Complete films with English subtitles, never a trailer. From the public domain, Mosfilm's official channel, the NFB and the Cinémathèque française. With a few lines on why each one still matters.</div>
+  </div>
+</section>
+
+<!-- 14 LANGUAGES -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>04 · For everyone</span></div>
+  <div class="center">
+    <div class="k">Five languages, one click</div>
+    <div style="display:flex;gap:56px;align-items:baseline;margin-top:40px;flex-wrap:wrap">
+      <span class="h1">EN</span><span class="h1" style="color:var(--soft)">VI</span><span class="h1" style="color:var(--soft)">FR</span><span class="h1" style="color:var(--soft)">ES</span><span class="h1" style="color:var(--soft)">JA</span>
+    </div>
+    <div class="lead" style="margin-top:56px">English by default. Switch at the top right, the page remembers your choice.</div>
+  </div>
+</section>
+
+<!-- 15 HOW IT WORKS -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>04 · How it works</span></div>
+  <div class="k" style="margin-top:60px">The ritual</div>
+  <div class="h2" style="margin-top:20px">Monday, coffee, <em>ten minutes.</em></div>
+  <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:48px;margin-top:96px">
+    <div><div class="rule" style="background:#0a0a0a"></div><div class="k" style="margin-top:24px">When</div><div class="h3" style="margin-top:14px">Every Monday <em>morning</em></div></div>
+    <div><div class="rule" style="background:#0a0a0a"></div><div class="k" style="margin-top:24px">Where</div><div class="h3" style="margin-top:14px">#02-ariane-<em>inspiration</em></div></div>
+    <div><div class="rule" style="background:#0a0a0a"></div><div class="k" style="margin-top:24px">Always</div><div class="h3" style="margin-top:14px">One link, every past issue in the <em>archive</em></div></div>
+  </div>
+  <div class="body bottom" style="font-size:28px;color:#0a0a0a">ariane-studio.github.io/ariane-picks</div>
+</section>
+
+<!-- 16 SESSIONS -->
+<section class="slide dark">
+  <div class="top"><span>Ariane Picks</span><span>05 · Next</span></div>
+  <div class="center">
+    <div class="k">Coming next</div>
+    <div class="h1" style="margin-top:24px">Creative <em>sessions.</em></div>
+    <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:48px;margin-top:88px;max-width:1500px">
+      <div><div class="num" style="color:#6f6f75">01</div><div class="h3" style="margin-top:16px">Watch <em>together</em></div></div>
+      <div><div class="num" style="color:#6f6f75">02</div><div class="h3" style="margin-top:16px">Take it <em>apart</em></div></div>
+      <div><div class="num" style="color:#6f6f75">03</div><div class="h3" style="margin-top:16px">Make <em>something</em></div></div>
+    </div>
+    <div class="lead" style="margin-top:72px">One session per chapter: we look, we discuss, then we turn it into our own work.</div>
+  </div>
+</section>
+
+<!-- 17 YOUR TURN -->
+<section class="slide">
+  <div class="top"><span>Ariane Picks</span><span>05 · Your turn</span></div>
+  <div class="center">
+    <div class="h1">It's a first version.<br><em>Make it yours.</em></div>
+    <div class="lead" style="margin-top:56px">Tell us what you love, what's missing, what you want more of. Found something great? Send it, it might be next Monday's pick.</div>
+  </div>
+</section>
+
+<!-- 18 CLOSE -->
+<section class="slide dark">
+  <div class="ph full" data-brand="Gatorville" style="border-radius:0"><img referrerpolicy="no-referrer" src="https://i.vimeocdn.com/video/2223015373-e371b8678886a6fe51c3a7690ba02ff0887ad004d53e173321476f8879b83013-d_1280x720" alt=""></div>
+  <div class="top" style="color:#d0d0d4"><span>Ariane Picks</span><span>Thank you</span></div>
+  <div class="bottom">
+    <div class="h0" style="color:#fff">Choosing is <em>the work.</em></div>
+    <div class="h3" style="color:#e6e6e8;margin-top:40px">ariane-studio.github.io/ariane-picks</div>
+  </div>
+</section>
+
+</div>
+<div id="bar"></div>
+<div class="hint">← → to navigate · F for full screen</div>
+<div id="ui"></div>
+<script>
+(function(){
+  var stage=document.getElementById('stage'),slides=[].slice.call(document.querySelectorAll('.slide')),ui=document.getElementById('ui'),bar=document.getElementById('bar'),i=0;
+  function fit(){var s=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform='translate(-50%,-50%) scale('+s+')'}
+  function go(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach(function(s,k){s.classList.toggle('on',k===i)});ui.textContent=(i+1)+' / '+slides.length;bar.style.width=((i+1)/slides.length*100)+'%';try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+  addEventListener('resize',fit);fit();
+  var h=parseInt((location.hash||'').slice(1),10);go(h?h-1:0);
+  addEventListener('keydown',function(e){
+    if(['ArrowRight','ArrowDown','PageDown',' ','Enter'].indexOf(e.key)>-1){e.preventDefault();go(i+1)}
+    else if(['ArrowLeft','ArrowUp','PageUp','Backspace'].indexOf(e.key)>-1){e.preventDefault();go(i-1)}
+    else if(e.key==='Home')go(0);else if(e.key==='End')go(slides.length-1);
+    else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();else document.exitFullscreen()}
+  });
+  addEventListener('click',function(e){go(e.clientX>innerWidth/2?i+1:i-1)});
+  var x0=null;addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+  addEventListener('touchend',function(e){if(x0===null)return;var d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)go(d<0?i+1:i-1);x0=null});
+  document.querySelectorAll('.ph img').forEach(function(img){
+    function brand(){img.style.display='none';var p=img.parentNode;if(p.querySelector('.wm'))return;var d=document.createElement('div');d.className='wm';d.textContent=p.getAttribute('data-brand')||'';p.appendChild(d)}
+    function check(){if(img.naturalWidth&&img.naturalWidth<=120){if(/maxresdefault/.test(img.src)){img.src=img.src.replace('maxresdefault','hqdefault');return}brand()}}
+    img.addEventListener('error',brand);img.addEventListener('load',check);
+    if(img.complete){if(img.naturalWidth===0&&img.src)brand();else check()}
+  });
+})();
+</script>
+</body>
+</html>
